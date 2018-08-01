@@ -1,0 +1,94 @@
+#create-experience .content-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;  
+}
+
+#create-experience .content-experience h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #4c4c51;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#create-experience .content-experience p {
+    margin: 0;
+    padding-bottom: 40px;
+    opacity: 0.9;
+    color: #88939e;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#create-experience .form-container {
+    display: flex;
+    flex-direction: column;   
+}
+
+#create-experience .form-container select {
+    /* tira a arrow do select de todas versões dos browsers */
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none; 
+    
+    background: url(../img/double-arrow-create-experience.png) no-repeat 90% center;
+
+    background-color: #ffffff;
+    border: 2px solid #dbdbdb;
+    border-radius: 100px 100px 0px 0px;
+    border-bottom: none;
+    height: 60px;
+    width: 474px;
+    
+    color: #88939e;
+    opacity: 0.9;
+    font-size: 22px;
+    font-weight: 400;
+    
+    padding: 15px 40px;   
+}
+
+#create-experience .form-container .button {
+    background-color: #fd6e74;
+    border: none;
+    border-radius: 0px 0px 100px 100px;
+    height: 60px;
+    width: 474px;
+
+    opacity: 0.9;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* responsividade do create-experience */
+@media screen and (max-width: 600px) {
+    #create-experience .content-experience h1 {
+        text-align: center;
+    }
+    
+    #create-experience .form-container {
+        width: 100%;
+    }
+
+    #create-experience .form-container .button {
+        width: 100%;
+        
+    }
+
+    #create-experience .form-container select {
+        width: 100%;
+    }
+
+}

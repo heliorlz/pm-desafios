@@ -1,0 +1,41 @@
+.hero {
+    height: 628px;
+    background: url(../img/top-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top .hero-body {
+    margin-top: -420px; /* coloca o hero-body em cima da imagem */
+}
+
+#top .hero-body h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#top .hero-body p {
+    color: rgba(250, 250, 250, 0.9);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#top .hero-body .button {
+    border-radius: 100px;
+    padding: 0 30px;
+    background-color: #fd5c63;
+}
+
+
+
+
+
+/* responsividade do top */
+@media screen and (max-width: 600px) {
+    #top .hero-body {
+        margin-top: -480px;
+    }
+}

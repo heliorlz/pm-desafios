@@ -1,0 +1,47 @@
+.navbar-brand h1 { 
+    background: url(../img/logo-header.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 41px;
+    margin-top: 13px;
+}
+
+.navbar-brand h1 span {
+    visibility: hidden;
+}
+
+.navbar-brand .burguer span {
+    color: #ffffff;
+    height: 2px;
+
+}
+
+.navbar-end .navbar-item {
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+.navbar-end .navbar-item:hover {
+    background-color: transparent;
+}
+
+.navbar-end a:last-child{
+    margin-top: 8px;
+}
+
+
+
+
+/* responsividade do header */
+@media screen and (max-width: 600px) {
+    .navbar-brand h1 {
+        margin: 10px;
+        margin-left: 15px;   
+    }
+
+    .navbar-brand .burguer {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+}

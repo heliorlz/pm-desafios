@@ -1,0 +1,90 @@
+#about-airbnb .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-airbnb .select-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-airbnb .select-group select {
+    /* tira a arrow do select de todas versões dos browsers */
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none; 
+    
+    background: url(../img/double-arrow-create-experience.png) no-repeat 90% center;
+    
+    background-color: #ffffff;
+    border: 2px solid #dbdbdb;
+    border-radius: 2px;
+    
+    opacity: 0.9;
+    color: #75808c;
+    font-size: 22px;
+    font-weight: 400;
+
+    padding-left: 20px;
+
+    width: 339px;
+    height: 60px;
+}
+
+#about-airbnb .select-group .select-language {
+    margin-bottom: 20px;
+}
+
+#about-airbnb .first-content {
+    margin-left: 20px;
+}
+
+#about-airbnb .second-content {
+    margin-right: -35px;
+}
+
+#about-airbnb .content h1 {
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    color: #fb5c68;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#about-airbnb .content h2 {
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    color: #88939e;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/* responsividade do about-airbnb */
+@media screen and (max-width: 600px) {
+    #about-airbnb .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-airbnb .select-group select {
+        width: 100%;
+    }
+
+    #about-airbnb .first-content {
+        margin: 30px 0;
+    }
+
+    #about-airbnb .second-content {
+        margin-right: 0;
+    }
+}

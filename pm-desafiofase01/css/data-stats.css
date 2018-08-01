@@ -1,0 +1,32 @@
+#data-stats {
+    padding-top: 145px;
+    font-family: Merriweather, sans-serif;
+}
+
+#data-stats .data-stats-title {
+    text-align: center;
+    opacity: 0.9;
+    color: #f94d59;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#data-stats .data-stats-subtitle {
+    text-align: center;
+    opacity: 0.9;
+    color: #88939e;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* responsividade do data-stats */
+@media screen and (max-width: 600px) {
+    #data-stats {
+        padding-top: 50px;
+    }
+}
