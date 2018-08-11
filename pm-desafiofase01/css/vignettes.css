@@ -17,10 +17,10 @@
     background-color: transparent;
 }
 
-.container-vignettes {
-    margin-top: -200px;
+/* .container-vignettes {
+    margin-top: -50px;
     
-}
+} */
 
 .container-vignettes .columns-vignettes {
     display: flex;
